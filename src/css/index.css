@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+/* Sizing */
+.sizing {
+  padding: 0 max(3%, calc((100% - 1100px) / 2));
+}
+.viewSet {
+  box-sizing: border-box !important;
+  max-width: 1440px !important;
+  width: 100% !important;
+  margin: 50px auto !important;
+  padding: 0 5% !important;
+}
+
+:root {
+  letter-spacing: 0.05px;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+}
+
+#root {
+  max-width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+h1, h2 {
+  font-family: var(--heading);
+  font-weight: 500;
+}
