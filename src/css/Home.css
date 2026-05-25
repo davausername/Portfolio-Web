@@ -130,6 +130,11 @@ p { font-size: 0.97rem; }
 
 .profile {
     justify-self: center;
+    transition: transform 0.2s linear;
+}
+
+.profile:hover {
+    transform: scale(1.02);
 }
 
 .about img {
